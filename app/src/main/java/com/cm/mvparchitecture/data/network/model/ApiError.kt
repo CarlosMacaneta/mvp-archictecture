@@ -1,4 +1,6 @@
 package com.cm.mvparchitecture.data.network.model
 
-class ApiError {
-}
+data class ApiError (
+    val httpErrorCode: Int?,
+    val message: String
+)
